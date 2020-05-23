@@ -21,12 +21,19 @@
             background-image: url('assets/images/background/vangogh.jpg');
 
             font-family: Candara;
+
+            color: white;
         }
 
         #contactbody
         {
             -webkit-animation: swing-in-top-fwd 2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 	                animation: swing-in-top-fwd 2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+        }
+
+        #linkhover
+        {
+            margin-right: 10px;
         }
     </style>
 
@@ -39,22 +46,29 @@
             <ul class = "nav navbar-nav">
                 <li><a href = "#"><i class = "fa fa-book-open"></i> Portfolio </a></li>
                 <li><a href = "#"><i class = "fa fa-store-alt"></i> Shop </a></li>
-                <li><a href = "#"><i class = "fa fa-question"></i> About </a></li>
-                <li><a href = "#"><i class = "fa fa-mobile-alt"></i> Contact </a></li>
+                <li><a href = "contact.html"><i class = "fa fa-mobile-alt"></i> Contact </a></li>
             </ul>
         </div>
     </nav>
 
+    <br>
+
     <div id = "contactbody" class = "container-fluid">
         <center>
+            <h2> Contact Me </h2><br>
+
             <img src = "assets/images/icons/pamelabinar.png" width = "300px" height = "350px">
         </center>
 
         <hr style = "width: 30%;">
 
-        <center>
-            <a href = "#"></a>
-        </center>
+        <div id = "socialmedialinks">
+            <center>
+                <a id = "linkhover" href = "http://www.facebook.com/pmlbnr"><img src = "assets/images/icons/facebook.png" width = "50px" height = "50px"></a>
+                <a id = "linkhover" href = "http://www.twitter.com/pmlbnr_"><img src = "assets/images/icons/twitter.png" width = "50px" height = "50px"></a>
+                <a id = "linkhover" href = "Http://www.instagram.com/pam.pkin_"><img src = "assets/images/icons/instagram.png" width = "50px" height = "50px"></a>
+            </center>
+        </div>
     </div>
 
     <!-- JQUERY -->
